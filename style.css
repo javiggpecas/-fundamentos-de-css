@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+   
+  :root{
+      --wrapper-width: 80rem;
+    /*--------------------- COLORS ---------------------*/
+      --primary-theme: #9aae04; /*VERDE*/
+      --second-theme: #d9d9d9;  /*GRIS*/
+      --border-color: #777;    /*GRIS OSCURO*/
+    /*--------------------- END COLORS ---------------------*/
+    /*--------------------- FONTS ---------------------*/
+      --font-primary: 'verdana';
+      --base_font_size: 1rem;
+      --base_titles_size: 2rem;
+      --big_titles_size: 3rem;
+    /*--------------------- END FONTS ---------------------*/
+    /*--------------------- SPACING ---------------------*/
+      --base_spacing-size: 1rem;  /*Margin y Padding*/
+    /*--------------------- END SPACING ---------------------*/
+   
+  }
+   
+  /*--------------------- GENERAL ---------------------*/
+  
+  /*--------------------- END GENERAL ---------------------*/
+   
+  /*--------------------- WRAPPER ---------------------*/
+   
+  /*--------------------- END WRAPPER ---------------------*/
+   
+   
+  /*--------------------- HEADER ---------------------*/
+  header {
+    margin: 0 ;
+    background-color: var(--second-theme);
+  }
+  
+  /*--------------------- END HEADER ---------------------*/
+   
+   
+  /*--------------------- MENU -------------------*/
+  nav ul {
+      display: flex;
+      
+  }
+  nav a {
+      color: var(--primary-theme);
+  }
+  /*--------------------- END MENU -------------------*/
+   
+   
+  /*--------------------- BODY BASE -------------------*/
+  body {
+    margin: 0 auto;
+    width: var(--wrapper-width);
+    font-family: var(--font-primary);
+    font-size: var(--base_font_size);
+  }
+  /*--------------------- END BODY BASE -------------------*/
+   
+   
+  /*--------------------- FORM -------------------*/
+  section {
+    border-bottom: 1px dotted var(--primary-theme);
+    padding-bottom: 10px;
+  }
+  fieldset {
+      margin-block-end: 10px;
+  }
+  .btn {
+      width: 100px;
+      background-color: var(--primary-theme);
+      color: white;
+      padding: 5px;
+      border: 1px solid black;
+  }
+  /*--------------------- END FORM -------------------*/
+   
+   
+  /*--------------------- TABLE -------------------*/
+  caption {
+    margin: 10px;
+    text-align: left;
+  }
+  table {
+    width: 100%;
+    border-spacing: 0px;
+  }
+  th, td {
+    height: 40px;
+    border: 1px solid black;
+  }
+  th {
+    background-color: var(--primary-theme);
+  }
+  td {
+    padding-left: 20px;
+  }
+  /*--------------------- END TABLE -------------------*/
